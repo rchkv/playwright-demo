@@ -4,13 +4,13 @@
   "description": "some testing scenarios ",
   "main": "",
   "dependencies": {
-    "playwright": "^0.17.0"
+    "playwright": "1.0.0"
   },
   "devDependencies": {
     "mocha": "^7.1.2"
   },
   "scripts": {
-    "test": "mocha --timeout 5000"
+    "test": "mocha --timeout 10000"
   },
   "repository": {
     "type": "git",

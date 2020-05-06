@@ -1,0 +1,19 @@
+{
+  "name": "playwright-demo",
+  "version": "1.0.0",
+  "description": "some testing scenarios ",
+  "main": "",
+  "dependencies": {
+    "playwright": "^0.17.0"
+  },
+  "devDependencies": {
+    "mocha": "^7.1.2"
+  },
+  "scripts": {
+    "test": "mocha --timeout 5000"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rchkv/playwright-demo.git"
+  }
+}

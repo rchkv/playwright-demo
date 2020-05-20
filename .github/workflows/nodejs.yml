@@ -20,7 +20,6 @@ jobs:
     - name: Install dependencies and run tests
       run: npm ci && npm test
     - uses: actions/upload-artifact@v2
-      if: failure()
       with:
         name: screenshots
         path: artifacts/

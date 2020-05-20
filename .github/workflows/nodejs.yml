@@ -19,8 +19,8 @@ jobs:
     - uses: microsoft/playwright-github-action@v1.2.0
     - name: Install dependencies and run tests
       run: npm ci && npm test
-    - uses: actions/download-artifact@v2
+    - uses: actions/upload-artifact@v2
+      if: failure()
       with:
         name: screenshots
-    - name: Display structure of downloaded files
-      run: ls -R
+        path: artifacts/

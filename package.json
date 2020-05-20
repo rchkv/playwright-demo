@@ -4,9 +4,10 @@
   "description": "some testing scenarios ",
   "main": "",
   "dependencies": {
-    "playwright": "1.0.0"
+    "playwright": "^1.0.1"
   },
   "devDependencies": {
+    "chai": "^4.2.0",
     "mocha": "^7.1.2"
   },
   "scripts": {

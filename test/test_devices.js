@@ -30,7 +30,8 @@ describe('test permissions', function () {
   it('is geolocation', async () => {
     await page.goto('https://yandex.ru/maps');
     await page.screenshot({ path: 'artifacts/map1.png' });
-    // await page.click('.interstitial-view__links-web');
+    await page.click('.interstitial-view__links-web');
+    await page.screenshot({ path: 'artifacts/map2.png' });
     // const sidebarTitle = await page.$eval('.config-view', e => e.textContent);
     // expect(sidebarTitle).to.have.string('Екатеринбург');
   });
